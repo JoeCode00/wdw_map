@@ -70,4 +70,9 @@ def display_image(image):
 
 
 if __name__ == "__main__":
-	image = capture(0, 0, 1920, 1080)
+	SCREENSHOT_X1 = 38
+	SCREENSHOT_Y1 = 210
+	SCREENSHOT_X2 = 978
+	SCREENSHOT_Y2 = 810
+	image = capture(SCREENSHOT_X1, SCREENSHOT_Y1, SCREENSHOT_X2, SCREENSHOT_Y2)
+	save_image(image=image, filename='sc4.png')
