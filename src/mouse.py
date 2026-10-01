@@ -1,4 +1,4 @@
-from terminal import run
+from src.terminal import run
 
 def move_to(x:int, y:int) -> None:
     try:

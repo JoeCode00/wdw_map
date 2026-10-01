@@ -1,8 +1,8 @@
 import json
 import time
 
-from terminal import run, run_async
-from mouse import click_at
+from src.terminal import run, run_async
+from src.mouse import click_at
 
 def get_clients() -> str:
     output = run('hyprctl clients -j')
